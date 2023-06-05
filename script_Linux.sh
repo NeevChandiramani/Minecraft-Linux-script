@@ -13,7 +13,7 @@ fi
 sudo apt update && sudo apt upgrade -y
 
 # Basic utilities installation
-sudo apt install -y net-tools curl wget docker.io
+sudo apt install -y net-tools curl wget docker.io htop
 
 # Check if the system is up to date
 if apt-get upgrade -s | grep -q "upgraded,"; then
